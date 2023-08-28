@@ -16,7 +16,7 @@ colorama==0.4.4
 distlib==0.3.6
 docutils==0.16
 filelock==3.9.0
-Flask
+Flask==2.3.2
 flatbuffers==23.5.26
 frozenlist==1.4.0
 gast==0.4.0
