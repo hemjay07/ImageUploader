@@ -1,4 +1,4 @@
 Flask>=1.0.2
 gunicorn
 python-dotenv
-werkzeug.utils
+werkzeug
