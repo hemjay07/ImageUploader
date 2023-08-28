@@ -1,0 +1,106 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10vh;
+}
+.container button {
+  padding: 0.5rem 0;
+  min-width: 90px;
+  font-size: 16px;
+  background-color: #2f80ed;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.container button:hover {
+  cursor: pointer;
+}
+.container h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.container p {
+  font-size: 1rem;
+  color: #828282;
+  margin-bottom: 20px;
+}
+.dropbox {
+  width: 80%;
+  min-height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px dashed #97bef4;
+  border-radius: 10px;
+  background-color: #f6f8fb;
+  padding: 3% 0;
+}
+.dropbox p {
+  color: #bdbdbd;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.fileInputLabel {
+  padding: 0.6rem 0.7rem;
+  background-color: #2f80ed;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.copy {
+  border: solid 1px #e0e0e0;
+  background-color: #f6f8fb;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-radius: 10px;
+  padding: 0px 10px;
+  padding-top: 5px;
+}
+
+.copy p {
+  overflow: hidden;
+}
+
+.dropbox img {
+  max-width: 60vw;
+  max-height: 400px;
+}
+
+.progressContainer {
+  width: 80vw;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 30vh;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2.5rem 4rem;
+}
+
+.progressContainer p {
+  font-size: 1.5rem;
+}
+
+.bar {
+  border: 2px red solid;
+}
