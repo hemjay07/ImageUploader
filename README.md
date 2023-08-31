@@ -19,7 +19,7 @@
 
 ### What I learned
 
-- Learnt how to deploy a Flask-React full-stack application by serving the React static folder usign the Flask app
+- Learnt how to deploy a Flask-React full-stack application by serving the React static folder usign the Flask app.
 ```python
 // set the static folder to the build folder (dist)
 app = Flask(__name__,static_url_path='', static_folder="client.js/dist")
